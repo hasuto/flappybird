@@ -68,17 +68,12 @@ a.btn--yellow:hover {
   background: #fff20a;
   border-bottom: 2px solid #ccc100;
 }
-
-a {
-    position: absolute;
-    left: 46%;
-    top: 300px; 
-    
-
-    
-    
-    
-    
+.startbutton a {
+    display: inline;  
+    top: 120px;
+}
+.startbutton{
+  text-align: center;
 }
 
 .title {
@@ -106,5 +101,21 @@ a {
 
 body {
   background-image: url("back.png");
+}
+
+
+/*Topページへ戻るボタン*/
+.back-top a{
+  color: #fff;
+  background-color: #eb6100;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 15px;
+  text-decoration: none;
+
+}
+.back-top  a:hover{
+  color: #fff;
+  background-color: #f56500;
 }
   
